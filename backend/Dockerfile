@@ -10,7 +10,7 @@ COPY app ./app
 
 FROM base AS prod
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", \
-     "--workers", "2", "--proxy-headers", "--forwarded-allow-ips", "*"]
+     "--proxy-headers", "--forwarded-allow-ips", "*"]
 
 FROM base AS dev
 RUN pip install --no-cache-dir watchfiles
