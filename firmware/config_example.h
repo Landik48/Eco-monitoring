@@ -23,6 +23,11 @@
 #define TOPIC_CMD        TOPIC_PREFIX "/cmd"
 #define TOPIC_SETTINGS   TOPIC_PREFIX "/settings"
 
+#define TOPIC_TIME       TOPIC_PREFIX "/time"
+#define TOPIC_TIMEREQ    TOPIC_PREFIX "/timereq"
+
+#define TIME_RESYNC_INTERVAL_SEC  3600UL
+
 #define OTA_HOSTNAME    DEVICE_ID
 #define OTA_PASSWORD    "пароль_для_обновления_по_воздуху"
 
