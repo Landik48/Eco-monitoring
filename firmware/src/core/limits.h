@@ -1,0 +1,7 @@
+#pragma once
+
+#define FILTER_MAX 15
+
+#define TIME_SANE_MIN 1704067200UL
+
+#define TIME_SANE_MAX 4102444800UL
